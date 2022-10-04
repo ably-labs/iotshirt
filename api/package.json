@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "version": "",
+  "description": "",
+  "scripts": {
+    "prestart": "func extensions install",
+    "start": "func start --verbose",
+    "test": "echo \"No tests yet...\""
+  },
+  "author": "",
+  "dependencies": {
+    "ably": "^1.1.25",
+    "form-data": "^3.0.0",
+    "node-fetch": "^2.6.1"
+  }
+}

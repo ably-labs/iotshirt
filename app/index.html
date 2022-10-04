@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Ably ioTshirt</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdn.ably.io/lib/ably.min-1.js"></script>
+    <script src="./script.ts" type="module"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <h1>First pick a colour!</h1>
+    <section class="colors">
+        <button data-hex="#ff0000" id="red" class="color red">red</button>
+        <button data-hex="#ff5500" id="orange" class="color orange">orange</button>
+        <button data-hex="#ffff00" id="yellow" class="color yellow">yellow</button>
+        <button data-hex="#00ff00" id="green" class="color green">green</button>
+        <button data-hex="#00ffff" id="cyan" class="color cyan">turquoise</button>
+        <button data-hex="#0000ff" id="blue" class="color blue">blue</button>
+        <button data-hex="#aa00ff" id="purple" class="color purple">purple</button>
+        <button data-hex="#ff44aa" id="pink" class="color pink">pink</button>
+        <button data-hex="#ffffff" id="white" class="color white">white</button>
+        <button data-hex="#000000" id="black" class="color black">off</button>
+    </section>
+
+    <h1>Then pick a pixel!</h1>
+    <div id="pixels">
+        <!-- generated -->
+    </div>
+
+</body>
+
+</html>
