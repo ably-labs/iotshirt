@@ -31,3 +31,10 @@ import { PixelProtocolMessageHandler } from "./js/PixelProtocolMessageHandler";
     channel.subscribe(m => { inboundMessageHandler.handle(m); });
 
 })();
+
+
+function colorAndPublish(e, channel) {
+    let coords = e.target.value.split('-');
+    e.target.style.backgroundColor = selected;
+    channel.publish("leds", { x: coords[0], y: coords[1], color: selected });
+}

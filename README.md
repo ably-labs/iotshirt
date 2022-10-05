@@ -112,7 +112,7 @@ Because of this somewhat unorthadox numbering scheme, the code running on our ha
     ................
 
 
-We love snake mode 🐍, it makes soldiering easier. And snakes are awesome. Shut up.
+We love snake mode 🐍, it makes soldiering easier. And snakes are awesome.
 
 # The Web UI
 
@@ -122,7 +122,7 @@ There's a colour picker at the top for people to select their brushes, and a cli
 
 # Why only specific colours?
 
-The LED matrix works better with certain colour pallets because painting in light is hard you!
+The LED matrix works better with certain colour pallets because painting in light is very different to painting with paint, the more colours we add, the closer we get to white!
 So we picked some safe colours to let people paint with. The pixels themselves are lit using
 `RGB` values, but we're constraining our painting to colours we know look good on the hardware.
 
